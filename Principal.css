@@ -1,0 +1,257 @@
+*{
+    margin: 9px;
+    padding: 9px;
+
+}
+
+    /*animación*/
+#logo{
+    width:100%;
+    animation-name: logo;
+      animation-duration: 3s;  
+     
+    }
+    
+    @keyframes logo {
+      from {background-color: rgb(3, 126, 242);}
+      to {background-color: rgb(255, 255, 255);}
+    }
+  
+
+
+/*backup
+.grid-container {
+        display: grid;
+        align-content: center;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10px;
+        background-color: #2196F3;
+        padding: 10px;
+        
+      }
+      
+ .grid-container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+ 
+*/
+
+
+
+
+#info h4{
+    background-color:rgb(255, 255, 255);
+    color: rgb(3, 126, 242)
+    
+}
+
+h2{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+
+h4 { 
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+section{
+    
+    background-color: rgb(3, 126, 242)
+    
+}
+
+p{
+    font-size: 17px;
+    position: static;
+    color: azure;
+    text-align: left;
+}
+footer{
+    color: darkblue;
+    background-color: cornsilk;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#pfooter{
+    color: darkblue;
+}
+
+
+
+#registro{
+    
+    color: #086e99;    
+    background-color: #BFE3DF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+ 
+}
+#admision{
+    
+    color: #086e99;
+    background-color: #FFF5CC;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  
+}
+
+#experiencia{
+    
+    color: #086e99;
+    background-color: #FFD9BD;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  
+}
+
+
+
+div p {
+    color: #0f332f;
+    text-align: left;
+    }
+#frase{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 20px;
+    
+   
+    background-color: #EE9D94;
+    
+}
+
+#frase p{
+    color: rgba(15, 15, 14, 0.973);
+    text-align: right;
+}
+
+form{
+    background-color: #EE9D94;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    width: auto;
+    height: auto;
+    
+}
+
+div.col-auto{
+    flex-wrap: wrap;
+    align-content: flex-end;
+    width: auto;
+    
+}
+
+
+aside{
+    flex-wrap: wrap;
+    align-content: flex-end;
+    width: auto;
+        grid-gap: 10px;
+        background-color: #2196F3;
+        padding: 10px;
+}
+
+#mapa{
+    flex-wrap: wrap;
+    align-content: flex-end;
+    width: auto;
+}
+
+    /*___________________________Escritorio____________________________________*/
+
+    @media (min-width: 1024px) {
+
+
+    .grid-container {
+        display: grid;
+        align-content: center;
+        grid-template-columns: auto auto auto;
+        grid-auto-rows: minmax(125px, auto);
+    flex-wrap: wrap;
+    align-content: flex-end;
+    width: auto;
+        grid-gap: 10px;
+        background-color: #2196F3;
+        padding: 10px;
+        }
+      
+    .grid-container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+    
+    }
+    
+
+    
+        /*_____________________________________Tablet_______________________*/
+    
+    @media (max-width:1024px) and (min-width:768px) { 
+    
+        .grid-container {
+            display: grid flex;
+            align-content: center;
+            grid-template-columns: auto auto auto;
+            grid-auto-rows: minmax(125px, auto);
+        flex-wrap: wrap;
+        align-content: flex-end;
+        width: auto;
+            grid-gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+            }
+          
+        .grid-container > div {
+            background-color: rgba(15, 231, 62, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+          }
+        
+        
+
+
+        }
+    
+        
+    
+    /*__________________________________________celular____________________________*/
+    @media (max-width:768px ){ 
+    
+
+
+        .grid-container {
+            display: grid flex;
+            align-content: center;
+            grid-template-columns: auto auto auto;
+            grid-auto-rows: minmax(125px, auto);
+        flex-wrap: wrap;
+        align-content: flex-end;
+        width: auto;
+            grid-gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+            }
+          
+        .grid-container > div {
+            background-color: rgba(231, 15, 15, 0.8);
+            text-align: center;
+            font-size: 30px;
+          }
+        
+    
+
+
+        }

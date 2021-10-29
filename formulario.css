@@ -1,0 +1,59 @@
+*{
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(3, 126, 242);
+    
+    
+}
+
+    /*animación*/
+#logo{
+    animation-name: logo;
+      animation-duration: 3s;  
+     
+    }
+    
+    @keyframes logo {
+      from {background-color: rgb(3, 126, 242);}
+      to {background-color: rgb(255, 255, 255);}
+    }
+  
+
+  td{
+      color: rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);
+  }
+  tr{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+input{
+    color: rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);
+}
+
+option{
+    color: rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);
+}
+
+
+select{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+
+h2{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+section{
+    
+    background-color: rgb(3, 126, 242)
+    
+}
+
